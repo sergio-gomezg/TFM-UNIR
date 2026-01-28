@@ -1,6 +1,8 @@
 # Trabajo Fin de Estudios del Máster de Análisis y Visualización de Datos Masivos de la UNIR. Realizado por Sergio Gómez García. 
 #### <div align="justify"> En este documento se procederá a explicar como replicar los datos obtenidos a través de los documentos proporcionados en el repositorio. En este caso se explica desde Google Colab ya que permite despreocuparse bastante de la instalación de librerías y la compatibilidad entre las mismas, además de ser la opción por la que se acabó optando durante el desarrollo del trabajo. En caso de querer ejecutarlo desde Anaconda y Jupyter Notebook, instalar las librerías necesarias comprobando la compatibilidad, los pasos serán muy similares en esta otra herramienta. </div>
 
+# Google Colab
+
 ## 1º Paso: 
 ### <div align="justify"> Descargar el fichero zip titulado como DATOS_ACCIDENTES.zip, una vez descargado, en la carpeta se mostrarán 3 ficheros, el fichero a utilizar en el resto de pasos es el titulado como ACCIDENTES-DEFINITIVOS3.csv </div>
 
@@ -61,4 +63,40 @@
 
 <p align="center">
   <img width="484" height="243" alt="image" src="https://github.com/user-attachments/assets/5f24f09e-b0f4-48ae-bd7a-f61c1a4d72af" />
+</p>
+
+# Power BI
+
+## 1º Paso: 
+
+### <div align="justify"> En caso de no tener Power BI instalado en el ordenador, descargarlo desde la web oficial de Microsoft (https://www.microsoft.com/es-es/power-platform/products/power-bi/downloads) e instalarlo, en caso de ya tenerlo instalado se puede omitir este paso. </div>
+
+## 2º Paso: 
+
+### <div align="justify"> Descargar el fichero TFM_DB.pbix del repositorio y hacer doble click en el, esto abrirá el proyecto automáticamente en Power BI y desde aquí ya se podrá ver las diferentes gráficas e interactuar con los distintos filtros, tal y como se ve en la siguiente imagen. </div>
+
+<p align="center">
+  <img width="761" height="425" alt="image" src="https://github.com/user-attachments/assets/69aa5710-03ae-4ef2-a1d4-c531fdadf2f5" />
+</p>
+
+## 3º Paso (Opcional): 
+
+### <div align="justify"> En caso de dar problemas porque no encuentre los datos o se necesite especificar la ruta de los datos para algo en concreto, en la barra superior darle a transformar datos, tal y como se muestra en la imagen. </div>
+
+<p align="center">
+  <img width="642" height="145" alt="image" src="https://github.com/user-attachments/assets/57e526d3-d970-4b3e-8e31-f14cc790b4d5" />
+</p>
+
+### <div align="justify"> Se abrirá Power Query y para evitar perder los pasos realizados habrá que ir al menú lateral derecho y en pasos aplicados hacer click en Origen y cambiar la ruta que aparece por la de nuestro ordenador, tal y como se muestra en la siguiente imagen, finalmente se dará a cerrar y aplicar para aplicar los cambios correctamente. </div>
+
+<p align="center">
+  <img width="1356" height="388" alt="image" src="https://github.com/user-attachments/assets/3c46cb28-b2a6-4223-84c0-140ebcb922e1" />
+</p>
+
+# Scimago Graphica (Complementario)
+
+### <div align="justify"> Aunque Scimago Graphica no se usó como tal para la parte de análisis estadístico o de inteligencia artificial, si fue usado para generar una de las gráficas que se pueden ver en el apartado de contexto del problema dentro del estado del arte, cuyos datos fueron descargados de la web oficial del INE (https://www.ine.es/jaxi/Tabla.htm?tpx=33350), para poder visualizar esta gráfica lo primero que habrá que hacer será descargar Scimago Graphica desde la web oficial (https://www.graphica.app/download) e instalarla, una vez instalada, descargar el fichero "Top hombres y mujeres.gph" del repositorio y hacer doble click sobre el, tras esto el fichero se abrirá automaticamente en la aplicación, tal y como se muestra en la imagen. </div>
+
+<p align="center">
+  <img width="1363" height="712" alt="image" src="https://github.com/user-attachments/assets/679b85d4-68fb-472b-b3b5-223df7b287d4" />
 </p>
